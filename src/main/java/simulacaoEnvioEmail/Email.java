@@ -32,7 +32,8 @@ public class Email {
         assunto = assunto.replace("{de}", de);
         assunto = assunto.replace("{para}", para);
 
-//        Impressão das informações no terminal que simula o envio do email
+//      Impressão das informações no terminal que simula o envio do email
+
         System.out.println(
                 "De: " + de + "\n"
                     + "Para: " + para + "\n"
